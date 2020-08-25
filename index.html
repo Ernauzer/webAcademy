@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Иван Иванов - веб-разработчик</title>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <div class="hero_header">
+          <img src="img/logo.svg" alt="Glo Academy" class="logo" />
+          <div class="social_links">
+            <a href="" class="social_link">
+              <img src="img/social/github.svg" alt="github" />
+            </a>
+            <a href="" class="social_link">
+              <img src="img/social/twitter.svg" alt="twitter" />
+            </a>
+            <a href="" class="social_link">
+              <img src="img/social/instagram.svg" alt="instagram" />
+            </a>
+            <a href="" class="social_link">
+              <img src="img/social/facebook.svg" alt="facebook" />
+            </a>
+          </div>
+          <!-- /.social_links -->
+        </div>
+        <!-- /.hero_header -->
+        <div class="hero_content">
+          <div class="hero_text">
+            <span class="hero_subtitle wow fadeInRight" data-wow-delay=".2s"
+              >Фрилансер</span
+            >
+            <h1 class="hero_title wow fadeInRight" data-wow-delay=".4s">
+              Иван Иванов
+            </h1>
+            <p class="hero_description wow fadeInRight" data-wow-delay=".6s">
+              Разрабатываю сайты для малого и среднего бизнеса. У меня можно
+              заказать дизайн и верстку небольшого сайта или интернет-магазина
+            </p>
+            <button
+              type="button"
+              class="btn hero_btn wow fadeInRight"
+              data-wow-delay=".8s"
+            >
+              Бесплатная консультация
+            </button>
+          </div>
+          <!-- /.hero_text -->
+          <div class="hero_avatar wow fadeIn" data-wow-delay="1.5s"></div>
+          <!-- /.hero_avatar -->
+        </div>
+        <!-- /.hero_content -->
+      </div>
+      <!-- /.container -->
+    </header>
+    <main>
+      <section class="features section">
+        <div class="container">
+          <h2 class="section_title wow fadeInLeft" data-wow-delay=".2s">
+            Со мной удобно работать.
+          </h2>
+          <div class="features_block">
+            <div class="features_item wow fadeIn" data-wow-delay=".25s">
+              <img
+                src="img/features/offer.svg"
+                alt="По Договору"
+                class="features_images"
+              />
+              <h3 class="features_title">По договору</h3>
+              <p class="features_text">
+                Предоставлю все документы для бухгалтерии: договоры, счета и
+                акты. Работаю как ИП без НДС.
+              </p>
+            </div>
+            <div class="features_item wow fadeIn" data-wow-delay=".5s">
+              <img
+                src="img/features/deadline.svg"
+                alt="Точно в срок"
+                class="features_images"
+              />
+              <h3 class="features_title">Точно в срок</h3>
+              <p class="features_text">
+                В договоре прописана моя ответственность за срок проекта. Если
+                просрочу — плачу неустойку.
+              </p>
+            </div>
+            <div class="features_item wow fadeIn" data-wow-delay=".6s">
+              <img
+                src="img/features/agreement.svg"
+                alt="Ценник под вас"
+                class="features_images"
+              />
+              <h3 class="features_title">Ценник под вас</h3>
+              <p class="features_text">
+                Если у вас нетиповой проект, сделаю рассчет цены за работу и
+                объясню, как складывается цена.
+              </p>
+            </div>
+            <div class="features_item wow fadeIn" data-wow-delay=".7s">
+              <img
+                src="img/features/steps.svg"
+                alt="Премежуточные итоги"
+                class="features_images"
+              />
+              <h3 class="features_title">Премежуточные итоги</h3>
+              <p class="features_text">
+                Показываю работу поэтапно, а не в последий момент перед крайним
+                сроком.
+              </p>
+            </div>
+            <div class="features_item wow fadeIn" data-wow-delay=".8s">
+              <img
+                src="img/features/storage.svg"
+                alt="Хостинг и домен "
+                class="features_images"
+              />
+              <h3 class="features_title">Хостинг и домен</h3>
+              <p class="features_text">
+                Если мы договорились о цене проекта, в неё входит всё: домен и
+                хостинг на год + SSL сертификат.
+              </p>
+            </div>
+            <div class="features_item wow fadeIn" data-wow-delay=".9s">
+              <img
+                src="img/features/conversation.svg"
+                alt="Не брошу после сдачи"
+                class="features_images"
+              />
+              <h3 class="features_title">Не брошу после сдачи</h3>
+              <p class="features_text">
+                Научу вас или вашего сотрудника пользоваться сайтом, запишу
+                видео-инструкции.
+              </p>
+            </div>
+          </div>
+          <!-- /.features_block -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.feathures -->
+      <div class="section projects">
+        <div class="container">
+          <h2 class="section_title wow fadeInLeft" data-wow-delay=".1s">Последние проекты</h2>
+
+          <!-- Slider main container -->
+          <div class="swiper-container projects_slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide project_slide">
+                <img
+                  src="img/projects/project-img.png"
+                  alt="Сайт строительной фирмы “Велстрой”"
+                  class="project_image"
+                />
+                <div class="project_text">
+                  <h3 class="project_title">
+                    Сайт строительной фирмы “Велстрой”
+                  </h3>
+                  <div class="project_time">
+                    <img
+                      src="img/decorate_icons/time-icon.svg"
+                      alt="Сроки"
+                      class="project_icon"
+                    />
+                    <div class="project_description">
+                      <h4 class="project_subtitle">Срок</h4>
+                      <p class="project_paragraph">4 рабочих дня</p>
+                    </div>
+                  </div>
+                  <!-- /.project_time -->
+                  <div class="project_cost">
+                    <img
+                      src="img/decorate_icons/cost-icon.svg"
+                      alt="Стоимость"
+                      class="project_icon"
+                    />
+                    <div class="project_description">
+                      <h4 class="project_subtitle">Стоимость</h4>
+                      <p class="project_paragraph">14 000 рублей</p>
+                    </div>
+                  </div>
+                  <!-- /.project_cost -->
+                  <div class="project_feedback">
+                    <img
+                      src="img/decorate_icons/feedback-icon.svg"
+                      alt="Отзыв клиента"
+                      class="project_icon"
+                    />
+                    <div class="project_description">
+                      <h4 class="project_subtitle">Отзыв клиента</h4>
+                      <p class="project_paragraph">
+                        Мне понравилось работать с Артемом, потому что он все
+                        время был на связи и предлагал свои решения, когда мы
+                        заходили в тупик с дизайном. Мне нужны были закрывающие
+                        документы для бухгалтерии, и Артем — тот редкий
+                        фрилансер, у которого с документами все в порядке
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /.project_feedback -->
+                </div>
+                <!-- /.project_text -->
+              </div>
+              <div class="swiper-slide project_slide">
+                <img
+                  src="img/projects/project-img.png"
+                  alt="Сайт строительной фирмы “Велстрой”"
+                  class="project_image"
+                />
+                <div class="project_text">
+                  <h3 class="project_title">
+                    Сайт строительной фирмы “Велстрой”
+                  </h3>
+                  <div class="project_time">
+                    <img
+                      src="img/decorate_icons/time-icon.svg"
+                      alt="Сроки"
+                      class="project_icon"
+                    />
+                    <div class="project_description">
+                      <h4 class="project_subtitle">Срок</h4>
+                      <p class="project_paragraph">4 рабочих дня</p>
+                    </div>
+                  </div>
+                  <!-- /.project_time -->
+                  <div class="project_cost">
+                    <img
+                      src="img/decorate_icons/cost-icon.svg"
+                      alt="Стоимость"
+                      class="project_icon"
+                    />
+                    <div class="project_description">
+                      <h4 class="project_subtitle">Стоимость</h4>
+                      <p class="project_paragraph">14 000 рублей</p>
+                    </div>
+                  </div>
+                  <!-- /.project_cost -->
+                  <div class="project_feedback">
+                    <img
+                      src="img/decorate_icons/feedback-icon.svg"
+                      alt="Отзыв клиента"
+                      class="project_icon"
+                    />
+                    <div class="project_description">
+                      <h4 class="project_subtitle">Отзыв клиента</h4>
+                      <p class="project_paragraph">
+                        Мне понравилось работать с Артемом, потому что он все
+                        время был на связи и предлагал свои решения, когда мы
+                        заходили в тупик с дизайном. Мне нужны были закрывающие
+                        документы для бухгалтерии, и Артем — тот редкий
+                        фрилансер, у которого с документами все в порядке
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /.project_feedback -->
+                </div>
+                <!-- /.project_text -->
+              </div>
+              <div class="swiper-slide project_slide">
+                <img
+                  src="img/projects/project-img.png"
+                  alt="Сайт строительной фирмы “Велстрой”"
+                  class="project_image"
+                />
+                <div class="project_text">
+                  <h3 class="project_title">
+                    Сайт строительной фирмы “Велстрой”
+                  </h3>
+                  <div class="project_time">
+                    <img
+                      src="img/decorate_icons/time-icon.svg"
+                      alt="Сроки"
+                      class="project_icon"
+                    />
+                    <div class="project_description">
+                      <h4 class="project_subtitle">Срок</h4>
+                      <p class="project_paragraph">4 рабочих дня</p>
+                    </div>
+                  </div>
+                  <!-- /.project_time -->
+                  <div class="project_cost">
+                    <img
+                      src="img/decorate_icons/cost-icon.svg"
+                      alt="Стоимость"
+                      class="project_icon"
+                    />
+                    <div class="project_description">
+                      <h4 class="project_subtitle">Стоимость</h4>
+                      <p class="project_paragraph">14 000 рублей</p>
+                    </div>
+                  </div>
+                  <!-- /.project_cost -->
+                  <div class="project_feedback">
+                    <img
+                      src="img/decorate_icons/feedback-icon.svg"
+                      alt="Отзыв клиента"
+                      class="project_icon"
+                    />
+                    <div class="project_description">
+                      <h4 class="project_subtitle">Отзыв клиента</h4>
+                      <p class="project_paragraph">
+                        Мне понравилось работать с Артемом, потому что он все
+                        время был на связи и предлагал свои решения, когда мы
+                        заходили в тупик с дизайном. Мне нужны были закрывающие
+                        документы для бухгалтерии, и Артем — тот редкий
+                        фрилансер, у которого с документами все в порядке
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /.project_feedback -->
+                </div>
+                <!-- /.project_text -->
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="projects-pagination"></div>
+          </div>
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.section projects -->
+    </main>
+
+    <footer class="section">
+      <div class="container">
+        <h2 class="section_title wow fadeInLeft" data-wow-delay=".2s">
+          Свяжитесь со мной
+        </h2>
+        <div class="contacts_block">
+          <form action="#" class="contacts_form">
+            <h4 class="form_title">
+              Можете просто оставить заявку, я позвоню вам сегодня
+            </h4>
+            <input
+              type="text"
+              class="input input_name"
+              placeholder="Ваше имя"
+            />
+            <input
+              type="text"
+              class="input input_phone"
+              placeholder="Ваш телефон"
+            />
+            <button type="submit" class="btn form_btn">
+              Бесплатная консультация
+            </button>
+          </form>
+          <div class="contacts_text">
+            <div class="contacts_data">
+              <div class="contacts_phone">
+                <h4 class="contacts_title">Телефон</h4>
+                <a href="tel:+79999456851" class="contacts_link"
+                  >+7 999 945-68-51</a
+                >
+              </div>
+              <!-- /.contacts_phone -->
+              <div class="contacts_email">
+                <h4 class="contacts_title">Почта</h4>
+                <a href="mailto:main@mail.ru" class="contacts_link"
+                  >main@mail.ru</a
+                >
+              </div>
+              <!-- /.contacts_email -->
+              <div class="contacts_social">
+                <h4 class="contacts_title">Соцсети</h4>
+                <a href="#" class="contacts_link">t.me/ivanov</a>
+                <a href="#" class="contacts_link">vk.me/ivanov</a>
+                <a href="#" class="contacts_link">fb.me/ivanov</a>
+              </div>
+              <!-- /.contacts_social -->
+            </div>
+            <!-- /.conacts_data -->
+            <div class="social_links">
+              <a href="" class="social_link">
+                <img src="img/social/github.svg" alt="github" />
+              </a>
+              <a href="" class="social_link">
+                <img src="img/social/twitter.svg" alt="twitter" />
+              </a>
+              <a href="" class="social_link">
+                <img src="img/social/instagram.svg" alt="instagram" />
+              </a>
+              <a href="" class="social_link">
+                <img src="img/social/facebook.svg" alt="facebook" />
+              </a>
+            </div>
+            <!-- /.social_links -->
+            <a href="#" class="contacts_police">Политика конфиденциальности</a>
+          </div>
+          <!-- /.contacts_text -->
+        </div>
+        <!-- /.contacts_block -->
+      </div>
+      <!-- /.container -->
+    </footer>
+    <script src="js/wow.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
